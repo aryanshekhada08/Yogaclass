@@ -1,0 +1,106 @@
+    /* About Page Styles */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4fdfc;
+      color: #333;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 40px;
+    }
+
+    .about-text {
+      flex: 1 1 400px;
+      max-width: 600px;
+    }
+
+    .about-text h1 {
+      font-size: 3rem;
+      color: #00796b;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .about-image {
+      flex: 1 1 300px;
+      max-width: 500px;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .about-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    .highlight-section {
+      background-color: #e0f2f1;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .highlight-section h2 {
+      font-size: 2.2rem;
+      color: #004d40;
+      margin-bottom: 20px;
+    }
+
+    .highlight-section p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    .extras-section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .extra-box {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .extra-box h3 {
+      font-size: 1.6rem;
+      color: #00695c;
+      margin-bottom: 10px;
+    }
+
+    .extra-box p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .extras-section {
+        grid-template-columns: 1fr;
+      }
+    }
+  
